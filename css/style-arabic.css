@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: 'lt-w23';
+    src: url(../fonts/din-next-lt-w23-regular.ttf);
+}
+body{
+    direction: rtl;
+    text-align: right!important;
+}
+.owl-carousel {
+    direction: ltr;
+}
+.position-abs .row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.contant-class{
+    text-align: center;
+}
+.w-ar{
+    width: 100%;
+}
+.contant-class .item .row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.text-ar{
+    text-align: start!important;
+}
+.owl-carousel1 .owl-nav.disabled{
+    display: block;
+    position: absolute;
+    top: -30%;
+    right:70%;
+  }
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+  }
+  .text-start-imp {
+    text-align: right!important;
+  }
+  .paddind-resp{
+    padding-left: 35px!important;
+  }
+  .custom-input button {
+    position: absolute;
+    top: 0;
+    right: 75%;
+    height: 100%;
+    padding: 6px 20px;
+    border-radius: 12px;
+  }
+  .arrow{
+    position: absolute;
+    right: 0!important;
+    top: 45%;
+    background: #1D1F4F;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .postion-on-image{
+    height: 100vh;
+    width: 30%;
+    position: absolute;
+    top:60px;
+    right:-50%;
+    background: #f7f9fa;
+    position: fixed;
+    transition: right 0.5s ease; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 100;
+  }
+  .nav-pills {
+    padding: 0!important;
+  }
+  .nav-pills .me-3 , .box-comment .me-2 ,.reviews .me-2 ,.me-2,.me-3{
+    margin-left: 20px!important;
+    margin-right: 0!important;
+  }
+  .position-exactly{
+    top: 23%;
+    right: 9%;
+  }
+  .latest-courses .text-start{
+    text-align: right!important;
+  }
